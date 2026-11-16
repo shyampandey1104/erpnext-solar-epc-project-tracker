@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include solar *.css
+recursive-include solar *.csv
+recursive-include solar *.html
+recursive-include solar *.ico
+recursive-include solar *.js
+recursive-include solar *.json
+recursive-include solar *.md
+recursive-include solar *.png
+recursive-include solar *.py
+recursive-include solar *.svg
+recursive-include solar *.txt
+recursive-exclude solar *.pyc
